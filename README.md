@@ -1,5 +1,5 @@
 # SHPermission
-目前项目中使用的权限申请库，根据[HiPermission][HiPermission]自定义版本！
+目前项目中使用的权限申请库，根据[HiPermission]自定义版本！
 
 
 原始使用方式参考[HiPermission](https://github.com/yewei02538/HiPermission)；
