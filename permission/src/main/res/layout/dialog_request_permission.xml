@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="16.0dip"
+    android:layout_marginRight="16.0dip"
+    android:background="@drawable/shape_bg_white"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+  <TextView
+      android:id="@+id/tvTitle"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="28dp"
+      android:textColor="#111111"
+      android:gravity="center"
+      android:text="权限申请"
+      android:textSize="16sp"
+      />
+
+  <TextView
+      android:id="@+id/tvDesc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:layout_marginRight="30dp"
+      android:layout_marginTop="24.0dip"
+      android:gravity="center"
+      android:textColor="#111111"
+      android:text=""
+      android:textSize="14sp"
+      />
+
+
+  <com.shihui.permission.WrapHeightGridView
+      android:id="@+id/gvPermission"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="24.0dip"
+      android:layout_marginRight="24.0dip"
+      android:layout_marginTop="24.0dip"
+      android:numColumns="1"
+      />
+
+
+  <Button
+      android:id="@+id/goto_settings"
+      android:layout_width="fill_parent"
+      android:layout_height="48dp"
+      android:layout_marginBottom="12.0dip"
+      android:layout_marginLeft="16.0dip"
+      android:layout_marginRight="16.0dip"
+      android:layout_marginTop="16.0dip"
+      android:background="@drawable/btn_main_bg"
+      android:text="@string/permission_btn_next"
+      android:textColor="@android:color/white"
+      android:textSize="16sp"
+      />
+</LinearLayout>

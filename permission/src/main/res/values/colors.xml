@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="permissionColorGreen">#41c236</color>
+    <color name="permissionColorRed">#C81526</color>
+    <color name="permissionColorWhite">#ffffff</color>
+    <color name="permissionBgColorGreenLight">#44A49C</color>
+    <color name="permissionBgColorBlue">#ee447AA4</color>
+    <color name="white">#ffffff</color>
+
+
+  <!--按钮颜色-->
+  <color name="color_btn_mainbtn_normal_bg">#C81526</color><!--主按钮正常时背景颜色  200 21 38-->
+  <color name="color_btn_mainbtn_pressed_bg">#BD1526</color><!--主按钮按下时背景颜色 189 21 38-->
+  <color name="color_btn_mainbtn_text">@color/white</color><!--主按钮文字颜色 255 255 255-->
+</resources>

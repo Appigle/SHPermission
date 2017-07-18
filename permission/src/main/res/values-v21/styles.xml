@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="style_main_btn" parent="@style/style_match_width">
+    <item name="android:layout_marginLeft">12dp</item>
+    <item name="android:layout_marginRight">2dp</item>
+    <item name="android:background">@drawable/btn_main_bg</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_marginTop">48dp</item>
+    <item name="android:textColor">@color/color_btn_mainbtn_text</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:layout_height">45dp</item>
+    <item name="android:stateListAnimator">@null</item>
+  </style>
+</resources>
